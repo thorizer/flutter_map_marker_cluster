@@ -12,7 +12,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_map: ^6.0.0
+  flutter_map:
+    git:
+      url: https://github.com/mootw/flutter_map
+      ref: master
   flutter_map_marker_popup: ^6.1.2
   latlong2: ^0.9.0
 
